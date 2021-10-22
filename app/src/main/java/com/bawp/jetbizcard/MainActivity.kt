@@ -37,6 +37,7 @@ class MainActivity : ComponentActivity() {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
                     CreateBizCard()
+                    //Hello world
                 }
             }
         }
@@ -138,10 +139,7 @@ fun Portfolio(data: List<String>) {
 
                 }
 
-
             }
-
-
 
         }
     }
